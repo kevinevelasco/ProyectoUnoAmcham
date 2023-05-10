@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex; /* esta línea junto con la de abajo permite que los elementos del encabezado se alineen en una fila horizontal */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13350b;
+  color: #fff;
+  padding: 16px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header a {
+  color: #fff;
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #fff;
+  background-color: #447aca;
+}
+
+/* Estilos para el contenido principal */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+main h2 {
+  margin-top: 32px;
+  font-size: 24px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+footer {
+  background-color: #13350b;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
