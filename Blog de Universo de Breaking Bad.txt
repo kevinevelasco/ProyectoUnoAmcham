@@ -1,5 +1,0 @@
-Blog de Universo de Breaking Bad
-Sitio sobre la discografía de una banda o artista.
-Mínimo 3 secciones informativas 
-(noticias recientes, temática particular, y una de contacto(formulario))
-(biografía, integrantes, discografía). Debe tener interactividad: modo oscuro, modo claro y demás.

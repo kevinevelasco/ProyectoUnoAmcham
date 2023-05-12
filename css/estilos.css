@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13350b;
+  color: #fff;
+  padding: 16px;
+}
+
+.caja {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.titulo-y-logo {
+  display: flex;
+  align-items: center;
+}
+.titulo-y-logo h1 {
+  margin-right: 20px; /* ajuste el margen derecho según sea necesario */
+}
+
+header h1 {
+  font-size: 24px;
+  margin-right: 16px;
+  flex: 1;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  flex: 0;
+  margin-right: 16px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+nav {
+  flex: 0.8;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: rgb(204, 192, 21);
+  border-radius: 5px;
+}
+/* Estilos para el contenido principal */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+main h2 {
+  margin-top: 32px;
+  font-size: 24px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+footer {
+  background-color: #13350b;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+footer img{
+  width: 100px;
+  height: 100px;
+  flex: 0;
+  margin-right: 16px;
+  margin: 30px;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+figure {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ver-mas {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.ver-mas:hover {
+  background-color: #0056b3;
+}
