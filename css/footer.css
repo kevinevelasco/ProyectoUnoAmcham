@@ -1,0 +1,88 @@
+footer {
+  background-color: #13350b;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-family: Arial;
+}
+
+
+#logoFooter {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+form button {
+  background-color: #fff;
+  color: #13350b;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+section.redes-sociales {
+  display: flex;
+  justify-content: center;
+}
+
+section.redes-sociales a {
+  margin: 0 8px;
+}
+
+section.redes-sociales img {
+  width: 30px;
+  height: 30px;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: rgb(237, 222, 7);
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  /*manito con el dedo apuntando*/
+}
+
+.enviar:hover {
+  background: darkkhaki;
+  transform: scale(1.20);
+}

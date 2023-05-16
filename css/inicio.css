@@ -1,0 +1,16 @@
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+main h2 {
+  margin-top: 32px;
+  font-size: 24px;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 16px;
+}

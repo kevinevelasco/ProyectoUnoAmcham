@@ -4,33 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <title>Breaking Universe</title>
-  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header>
-    <section class="caja">
-        <img class="titulo-y-logo" src="images/logo.png" alt="Logo MiBlog">
-        <h1 class="titulo-y-logo">Universo Breaking Bad</h1>
-      <nav>
-        <a href="#inicio">Universo Breaking Bad</a>
-        <a href="#breaking">Serie Original</a>
-        <a href="#bettercallsaul">Better Call Saul</a>
-        <a href="#pelicula">El Camino</a>
-        <a href="#cronologia">Orden Cronológico</a>
-        <a href="suscribete.html">Saber más</a>
-      </nav>
-    </section>
+  <header class="caja">
+    <img class="titulo-y-logo" src="images/logo.png" alt="Logo MiBlog">
+    <h1 class="titulo-y-logo">Universo Breaking Bad</h1>
+    <nav>
+      <a href="#inicio">Universo Breaking Bad</a>
+      <a href="#breaking">Serie Original</a>
+      <a href="#bettercallsaul">Better Call Saul</a>
+      <a href="#pelicula">El Camino</a>
+      <a href="#cronologia">Orden Cronológico</a>
+      <a href="#personajes">Personajes principales</a>
+    </nav>
   </header>
 
   <main>
     <picture>
-      <img
-        src="https://www.bupipedream.com/wp-content/uploads/2022/10/82202555_10158036307752722_4080656403683868672_n.png"
-        alt="Breaking Bad" width="100%">
+      <img src="./images/main.png" alt="Breaking Bad" title="Universo Breaking Bad">
     </picture>
 
-    <section>
+    <section id="hechos">
       <h2 id="inicio">¿De qué trata este universo?</h2>
       <p>El universo "Breaking Bad" es un conjunto de historias relacionadas con la exitosa serie
         de televisión "Breaking Bad" y su spin-off "Better Call Saul". La serie original sigue la vida de Walter White,
@@ -39,10 +35,10 @@
         futuro de su familia, comienza a fabricar metanfetamina junto a su exalumno Jesse Pinkman.</p>
     </section>
 
-    <section>
+    <section id="inicio">
       <h2 id="breaking">Breaking Bad - El inicio de todo</h2>
       <picture>
-        <img src="https://media.tenor.com/HQPTwG8oz_sAAAAC/hell-yeah-breaking-bad.gif" alt="Breaking Bad" width="100%">
+        <img src="./images/breakingbad.gif" alt="Breaking Bad">
       </picture>
       <p>La serie sigue la transformación de Walter de un hombre común y corriente a un
         narcotraficante peligroso y la lucha de Jesse por encontrar su lugar en el mundo criminal. La serie también
@@ -53,12 +49,10 @@
         dueño de una cadena de restaurantes de comida rápida.</p>
     </section>
 
-    <section>
+    <section id="better">
       <h2 id="bettercallsaul">Better Call Saul - ¿Mejor que la serie original?</h2>
       <picture>
-        <img
-          src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/04/hipertextual-2020315971.jpg?fit=1500%2C1189&quality=50&strip=all&ssl=1"
-          alt="Better Call Saul" width="100%">
+        <img src="./images/bettercallsaul.webp" alt="Better Call Saul">
       </picture>
       <p>"Better Call Saul" es un spin-off que sigue la vida del abogado criminalista Saul
         Goodman
@@ -68,11 +62,10 @@
         abogado
         astuto y corrupto que conocimos en la serie original.</p>
     </section>
-    <section>
+    <section id="camino">
       <h2 id="pelicula">El Camino - Primera y única película del Universo</h2>
       <picture>
-        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/gruponacion/47D7SOVLYJEWBADIJY4LRC7H5A.jpg"
-          alt="Better Call Saul" width="100%">
+        <img src="./images/elcamino.jpg" alt="Better Call Saul">
       </picture>
       <p>En la película "El Camino: A Breaking Bad Movie", se sigue la historia de Jesse después
         de
@@ -82,12 +75,10 @@
     </section>
 
 
-    <section>
+    <section id="cronology">
       <h2 id="cronologia">Cronología del Universo</h2>
       <picture>
-        <img
-          src="https://fotografias.antena3.com/clipping/cmsimages02/2012/06/27/BFC2099F-37C1-48A7-86FD-FEFE11AB5A2A/98.jpg?crop=760,428,x0,y53&width=1900&height=1069&optimize=high&format=webply"
-          alt="Cronología del Universo" width="100%">
+        <img src="./images/cronologia.webp" alt="Cronología del Universo">
       </picture>
       <p>El universo "Breaking Bad" es un conjunto de historias relacionadas con la exitosa serie
         de televisión "Breaking Bad" y su spin-off "Better Call Saul". La serie original sigue la vida de Walter White,
@@ -96,92 +87,179 @@
         futuro de su familia, comienza a fabricar metanfetamina junto a su exalumno Jesse Pinkman.</p>
     </section>
 
-    <section class="personajes">
+    <section id="personajes">
       <h2>Personajes principales</h2>
       <article>
         <figure>
           <img src="images/walter.png" alt="Walter White imagen">
-          <figcaption>
+          <figcaption class="nombre">
             <h3>Walter White</h3>
           </figcaption>
         </figure>
-        <p>Walter White es un profesor de química de secundaria que se entera de que tiene cáncer y, en un intento
+        <p class="descripcion">Walter White es un profesor de química de secundaria que se entera de que tiene cáncer y,
+          en un intento
           desesperado por asegurar el futuro de su familia, comienza a fabricar metanfetamina junto a su exalumno
           Jesse
           Pinkman.</p>
-        <a class="ver-mas" href="walter-page.html">Ver más</a>
+        <section class="curiosidades">
+          <h3 class="curio-text">Curiosidades</h3>
+          <ul class="curiosidades-list">
+            <li>El personaje de Walter White fue interpretado por Bryan Cranston.</li>
+            <li>Bryan Cranston fue nominado a un Emmy por su papel de Walter White.</li>
+            <li>Bryan afirmó que el personaje de Walter White fue inspirado por su padre, quien también era profesor de
+              química.</li>
+            <li>Jamie Foxx fue considerado para el papel de Walter White.</li>
+            <li>Antes de ser elegido para el papel de Walter White, Bryan Cranston fue considerado para el papel de
+              Jesse
+              Pinkman.</li>
+          </ul>
+        </section>
       </article>
       <article>
         <figure>
           <img src="images/jesse.png" alt="Jesse Pinkman imagen">
-          <figcaption>
+          <figcaption class="nombre">
             <h3>Jesse Pinkman</h3>
           </figcaption>
         </figure>
-        <p>Jesse Pinkman es un exalumno de Walter White que se convierte en su socio en la fabricación de
+        <p class="descripcion">Jesse Pinkman es un exalumno de Walter White que se convierte en su socio en la
+          fabricación de
           metanfetamina. Jesse es un joven problemático que se mete en problemas con la ley y tiene problemas para
           mantenerse alejado de las drogas.</p>
-        <a class="ver-mas" href="jesse-page.html">Ver más</a>
+        <section class="curiosidades">
+          <h3 class="curio-text">Curiosidades</h3>
+          <ul class="curiosidades-list">
+            <li>El personaje de Jesse Pinkman fue interpretado por Aaron Paul.</li>
+            <li>Aaron Paul fue considerado uno de los actores más sexys de la televisión.</li>
+            <li>Actualmente, Aaron Paul está casado.</li>
+          </ul>
+        </section>
       </article>
       <article>
         <figure>
           <img src="images/saul.png" alt="Saul Goodman imagen">
-          <figcaption>
+          <figcaption class="nombre">
             <h3>Saul Goodman</h3>
           </figcaption>
         </figure>
-        <p>Saul Goodman es un abogado criminalista que se convierte en el abogado de Walter White y Jesse Pinkman.
+        <p class="descripcion">Saul Goodman es un abogado criminalista que se convierte en el abogado de Walter White y
+          Jesse Pinkman.
           Saul
           es un abogado astuto y corrupto que utiliza su conocimiento de la ley para ayudar a sus clientes a salir de
           problemas.</p>
-        <a class="ver-mas" href="jimmy-page.html">Ver más</a>
+        <section class="curiosidades">
+          <h3 class="curio-text">Curiosidades</h3>
+          <ul class="curiosidades-list">
+            <li>Saul Goodman fue interpretado por Bob Odenkirk.</li>
+            <li>Bob Odenkirk fue nominado pocas veces por su papel de Saul Goodman.</li>
+            <li>Bob se graduó de la Universidad de Harvard.</li>
+            <li>Saul tenía pensado morir en la serie original, pero los productores decidieron mantenerlo vivo.</li>
+          </ul>
+        </section>
       </article>
       <article>
         <figure>
           <img src="images/hank.png" alt="Hank Schrader imagen">
-          <figcaption>
+          <figcaption class="nombre">
             <h3>Hank Schrader</h3>
           </figcaption>
         </figure>
-        <p>Hank Schrader es el cuñado de Walter White y agente de la DEA. Hank es un hombre de familia que se
+        <p class="descripcion">Hank Schrader es el cuñado de Walter White y agente de la DEA. Hank es un hombre de
+          familia que se
           preocupa
           por su familia y su trabajo. Hank es un agente de la DEA que se preocupa por su familia y su trabajo.</p>
-        <a class="ver-mas" href="hank-page.html">Ver más</a>
+        <section class="curiosidades">
+          <h3 class="curio-text">Curiosidades</h3>
+          <ul class="curiosidades-list">
+            <li>El personaje de Hank Schrader fue interpretado por Dean Norris.</li>
+            <li>Dean Norris fue nominado a un Emmy por su papel de Hank Schrader.</li>
+            <li>La escena en la que Hank Schrader muere fue filmada en un día.</li>
+            <li>Dean ha afirmado que el personaje de Hank Schrader fue inspirado por su padre, quien también era agente
+              de la DEA.</li>
+            <li>Dean Norris fue considerado para el papel de Walter White.</li>
+          </ul>
+        </section>
       </article>
       <article>
         <figure>
           <img src="images/mike.png" alt="Mike Ehrmantraut imagen">
-          <figcaption>
+          <figcaption class="nombre">
             <h3>Mike Ehrmantraut</h3>
           </figcaption>
         </figure>
-        <p>Mike Ehrmantraut es un ex policía de Filadelfia que se convierte en el principal matón de Gus Fring.
+        <p class="descripcion">Mike Ehrmantraut es un ex policía de Filadelfia que se convierte en el principal matón de
+          Gus Fring.
           Mike es
           un hombre de familia que se preocupa por su familia y su trabajo. Mike es un hombre de familia que se
           preocupa
           por su familia y su trabajo.</p>
-        <a class="ver-mas" href="mike-page.html">Ver más</a>
+        <section class="curiosidades">
+          <h3 class="curio-text">Curiosidades</h3>
+          <ul class="curiosidades-list">
+            <li>Es uno de los personajes más queridos por los fans.</li>
+            <li>El personaje de Mike Ehrmantraut fue interpretado por Jonathan Banks.</li>
+            <li>Jonathan admite que su personaje es muy diferente a él, pues él no mataría ni a una mosca.</li>
+          </ul>
+        </section>
       </article>
       <article>
         <figure>
           <img src="images/gus.png" alt="Gustavo Fring imagen">
-          <figcaption>
+          <figcaption class="nombre">
             <h3>Gustavo Fring</h3>
           </figcaption>
         </figure>
-        <p>Gustavo Fring es un prominente narcotraficante y dueño de una cadena de restaurantes de comida rápida.
+        <p class="descripcion">Gustavo Fring es un prominente narcotraficante y dueño de una cadena de restaurantes de
+          comida rápida.
           Gus
           es un hombre de negocios astuto que utiliza su conocimiento de la industria de la comida rápida para
           construir
           un imperio de drogas.</p>
-        <a class="ver-mas" href="gus-page.html">Ver más</a>
+        <section class="curiosidades">
+          <h3 class="curio-text">Curiosidades</h3>
+          <ul class="curiosidades-list">
+            <li>Gustavo Fring fue interpretado por Giancarlo Esposito.</li>
+            <li>Este es el papel estelar de Giancarlo Esposito, y ha seguido haciendo papeles de villanos.</li>
+            <li>Para Giancarlo Esposito, el personaje de Gus Fring es un personaje complejo y fascinante.</li>
+            <li>Los fans de la serie consideran a Gus Fring como uno de los mejores villanos de la televisión.</li>
+            <li>Vince Gilligan, creador de la serie, ha dicho que Gus Fring es su personaje favorito.</li>
+          </ul>
+        </section>
       </article>
     </section>
   </main>
 
   <footer>
-    <h2 id="suscribete">&copy Todos los derechos reservados</h2>
-    <img src="/images/logo.png" alt="Logo MiBlog">
+    <h2 id="suscribete">Contáctanos &#x1F9EA;</h2>
+    <img src="/images/logo.png" alt="Logo MiBlog" id="logoFooter">
+
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="email@dominio.com" required>
+
+      <label for="telefono">Número de contacto:</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="(XX) XXX XXX XXXX" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escriba su mensaje aquí" required></textarea>
+
+      <input type="submit" value="Enviar" class="enviar">
+    </form>
+    <article class="redes-sociales">
+      <h2 id="siguenos">Síguenos &#x1F6AC;</h2>
+      <a href="https://www.facebook.com">
+        <img src="/images/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com">
+        <img src="/images/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://www.instagram.com">
+        <img src="/images/instagram.png" alt="Instagram">
+      </a>
+    </article>
   </footer>
 </body>
 

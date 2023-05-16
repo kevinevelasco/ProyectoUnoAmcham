@@ -1,0 +1,83 @@
+/* Estilos para pantallas con un ancho máximo de 600px */
+@media (min-width: 601px) and (max-width: 1200px) {
+
+  /* La imagen ocupará el ancho completo */
+  #personajes figure {
+    width: 75%;
+  }
+
+  #personajes .nombre {
+    font-size: 40px;
+  }
+
+  /* El texto descriptivo y las curiosidades estarán debajo de la imagen */
+  #personajes article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.curiosidades .descripcion {
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    margin-left: 0;
+    
+  }
+
+  .curio-text {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  #personajes .curiosidades-list {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    padding: 40px;
+  }
+
+  footer h2 {
+    font-size: 24px;
+  }
+
+  footer img {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  form label {
+    margin-bottom: 8px;
+  }
+
+  form input,
+  form textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  form textarea {
+    height: 120px;
+  }
+
+  form button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  section.redes-sociales {
+    margin-bottom: 0;
+  }
+}
