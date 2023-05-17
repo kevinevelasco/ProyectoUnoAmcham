@@ -19,24 +19,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-
-.curiosidades .descripcion {
-    margin-top: 10px;
-    padding-left: 10px;
-    text-align: justify;
-    margin-left: 0;
-    
-  }
-
-  .curio-text {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   #personajes .curiosidades-list {
-    margin-bottom: 20px;
+    font-size: 24px;
+    margin-left: 7px;
+    list-style:repeating-linear-gradient(45deg, #000000, #000000 10px, #ffffff 10px, #ffffff 20px);
   }
   
   footer {
